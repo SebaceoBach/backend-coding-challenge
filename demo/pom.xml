@@ -73,6 +73,15 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>com.google.cloud.tools</groupId>
+				<artifactId>appengine-maven-plugin</artifactId>
+				<version>2.4.0</version>
+					<configuration>
+    					<deploy.projectId>backend-challenge-350210</deploy.projectId>
+						<deploy.version>v1</deploy.version>
+					</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
